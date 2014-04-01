@@ -1,0 +1,130 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TrueCar</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="jquery.mobile-1.4.2/jquery.mobile-1.4.2.min.css" />
+    <script src="jquery-1.11.0.js"></script>
+    <script src="jquery.mobile-1.4.2/jquery.mobile-1.4.2.min.js"></script>
+    <link rel="stylesheet" href="estilos.css" />
+    <script src="fastclick.js"></script>
+    <script src="funciones.js"></script>
+</head>
+<body>
+    <div data-role="page" id="pag1">
+        <div data-role="header" id="cabecera">
+            <a href="#preferencias" class="ui-btn ui-corner-all ui-icon-bars ui-btn-icon-notext"></a>
+            <h1>TRUECar</h1>
+            <a href="#" class="ui-btn" id="in">Sign In</a>
+        </div>
+        <div data-role="main" class="ui-content" id="cuerpo">
+            <h3>Never Overpay.</h3>
+            <p>TrueCar users save an average of $3,046 of MSRP</p>
+            <div data-role="controlgroup" data-type="vertical" id="formulario">
+                <form method="post" action="demoform.asp" id="f">
+                    <a href="#" data-transition="flow" class="ui-btn ui-icon-carat-d ui-btn-icon-right">Select a Make:</a>
+                    <a href="#" data-transition="flow" class="ui-btn ui-icon-carat-d ui-btn-icon-right">Select a Model:</a>
+                    <a href="#" class="ui-btn ui-icon-location ui-btn-icon-right"><input type="text" name="czip" id="czip" placeholder="Enter ZIP code"></a>
+                </form> 
+            </div>
+           
+            <a href="#pag2" class="ui-btn" id="sig">Next >></a>
+            
+            <div class="ui-grid-a">
+                <div class="ui-block-a"><a href="#" class="ui-btn ui-btn-inline" id="how">How It Works</a></div>
+                <div class="ui-block-b"></div>
+            </div>
+        </div>
+        <div data-role="panel" id="preferencias" data-display="overlay">
+            <div data-role="header" id="cabecera">
+                <a href="#pag1" data-rel="close" class="ui-btn ui-corner-all ui-icon-back ui-btn-icon-notext"></a>
+                <h1>Menu</h1>
+            </div>
+            <div data-role="controlgroup" data-type="vertical">
+                <a href="#" data-transition="flow" class="ui-btn">Home</a>
+                <a href="#" data-transition="flow" class="ui-btn">How TrueCar</a>
+                <a href="#" data-transition="flow" class="ui-btn">Sign In</a>
+                <a href="#" data-transition="flow" class="ui-btn">Download</a>
+                <a href="#" data-transition="flow" class="ui-btn">Privacy Policy</a>
+                <a href="#" data-transition="flow" class="ui-btn">Services</a>
+                <a href="#" data-transition="flow" class="ui-btn">View Full Site</a>
+            </div>
+            
+        </div>
+        
+    </div>
+    
+    <div data-role="page" id="pag2">
+        <div data-role="header" id="cabecera">
+            <a href="#preferencias2" class="ui-btn ui-corner-all ui-icon-bars ui-btn-icon-notext"></a>
+            <h1>Price Report</h1>
+            <a href="#pag1" class="ui-btn ui-corner-all ui-icon-home ui-btn-icon-notext"></a>
+        </div>
+        <div data-role="main" id="cuerpo2"> 
+            <ul data-role="listview" data-inset="true">
+            <li><a href="#">
+                <img src="http://img.truecar.com//colorid_images/v1/976266/276x142/f3q">
+                <h2>2014 Audi A4</h2>
+                <p>2.0T quattro triptonic</p></a></li>
+            </ul>
+        </div>
+        <div data-role="navbar">
+            <ul>
+                <li><a href="#">Color y Options</a></li>
+                <li><a href="#">Incentives</a></li>
+            </ul>
+        </div>
+        <div data-role="navbar">
+            <ul>
+                <li>
+                    <div data-role="navbar">
+                        <ul>
+                        <li><a href="#"><h5>ESTIMATED</h5>
+                                        <h4>Loan Payment</h4>
+                                        <h3>$541/mo</h3></a></li>
+                        <li><a href="#"><h5>ESTIMATED</h5>
+                                        <h4>Savings</h4>
+                                        <h3>$2,217</h3></a></li>
+                            </ul>
+                        </div>
+                    </li>
+              
+                <li><a href="#"><h5>ESTIMATED</h5>
+                                <h4>Average Paid</h4>
+                                <h3>$38,078</h3></a></li>
+            </ul>
+            
+        </div>
+        <p id="texto1">Your Estimated TrueCar Dealer Priceis 1.64% below MSRP. This is a good price.</p>
+        <img id="grafico" src="images/image.jpeg">
+        <div class="ui-grid-b" id="gri">
+            <div class="ui-block-a">Factory Invoice<br><strong>$37,932</strong></div>
+            <div class="ui-block-b">Average Paid<br><strong>$38,078</strong></div>
+            <div class="ui-block-c">MSRP<br><strong>$40,295</strong></div>
+        </div>
+        <div data-role="controlgroup" data-type="vertical">
+            <a href="#" data-transition="flow" class="ui-btn ui-icon-carat-r ui-btn-icon-right">Photo Gallery</a>
+            <a href="#" data-transition="flow" class="ui-btn ui-icon-carat-r ui-btn-icon-right">Review</a>
+        </div>
+        <p id="texto2">Use Autobytel to get free quotes from other local leaders.</p>
+        <div data-role="panel" id="preferencias2" data-display="overlay">
+            <div data-role="header" id="cabecera">
+                <a href="#pag2" data-rel="close" class="ui-btn ui-corner-all ui-icon-back ui-btn-icon-notext"></a>
+                <h1>Menu</h1>
+            </div>
+            <div data-role="controlgroup" data-type="vertical">
+                <a href="#" data-transition="flow" class="ui-btn">Home</a>
+                <a href="#" data-transition="flow" class="ui-btn">How TrueCar</a>
+                <a href="#" data-transition="flow" class="ui-btn">Sign In</a>
+                <a href="#" data-transition="flow" class="ui-btn">Download</a>
+                <a href="#" data-transition="flow" class="ui-btn">Privacy Policy</a>
+                <a href="#" data-transition="flow" class="ui-btn">Services</a>
+                <a href="#" data-transition="flow" class="ui-btn">View Full Site</a>
+            </div>
+            
+        </div>
+        
+   </div> 
+</body>
+</html>

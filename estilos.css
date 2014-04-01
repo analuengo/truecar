@@ -1,0 +1,75 @@
+
+#pag1{
+    background-image:url(images/portada.jpg);
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+}
+#cabecera{
+    background-color:#13395D;
+    color:white;
+    border:0;
+}
+#cabecera a{
+    background-color:#13395D;
+    color:white;
+    border:0;
+}
+
+#sig{
+    background-color:#ff6900;
+    color:white;
+    border-radius:10px;
+    border:0;
+}
+
+#cuerpo{
+    color:white;
+    border:0;
+}
+#how{
+    background-color:#66A1CD;
+    color:white;
+    border-radius:10px;
+    text-align:left;
+    border:0;
+}
+
+#formulario a{
+    background-color:white;
+    text-align:left;
+}
+
+#f{
+    border-radius:10px;
+    background-color:white;
+}
+
+#in{
+    background-color:#13395D;
+    color:white;
+    border:0;
+}
+#f .ui-btn-icon-d{
+    background-color:#13395D;
+}
+
+#grafico{
+    width:100%;
+}
+
+#texto1{
+    background-color:#13395D;
+    color:white;
+    text-align:center;
+}
+#texto2{
+    color:#66A1CD;
+    font-weight:bold;
+    text-align:center;
+}
+#opciones {
+    text-align:left;
+}
+#gri{
+    text-align:center;
+}
