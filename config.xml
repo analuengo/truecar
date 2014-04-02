@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 
 <!-- config.xml reference: https://build.phonegap.com/docs/config-xml -->
 <widget xmlns     = "http://www.w3.org/ns/widgets"
@@ -7,7 +7,7 @@
         version   = "1.0.0">
 
     <name>Curso HTML5</name>
-    <description>
+ <content src="https://tarish-solist.codio.io/index.html"/>   <description>
         Esto es la descripción de la aplicación
     </description>
     <author href="http://www.javiercantos.net" email="jcantos@gmail.com">
